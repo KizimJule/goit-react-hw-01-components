@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import { Section } from '../Section';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <section className="section-profile">
+    <Section>
       <div className="profile">
         <div className="description">
           <img src={avatar} alt="User avatar" className="avatar" />
@@ -26,7 +27,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
           </li>
         </ul>
       </div>
-    </section>
+    </Section>
   );
 };
 

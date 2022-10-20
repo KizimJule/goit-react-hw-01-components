@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import { Section } from '../Section';
 
 export const FriendList = ({ friends }) => {
   return (
-    <section className="section-friends">
+    <Section>
       <ul className="friend-list">
         {friends.map(friend => (
           <li key={friend.id} className="item">
@@ -17,7 +18,7 @@ export const FriendList = ({ friends }) => {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 };
 

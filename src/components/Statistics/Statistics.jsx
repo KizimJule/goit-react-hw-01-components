@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types';
+import { Section } from '../Section';
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      <h2 className="title">{title}</h2>
-
+    <Section>
+      {title && <h2 className="title">{title}</h2>}
       <ul className="stat-list">
         {stats.map(stat => (
           <li className="item" key={stat.id}>
@@ -13,7 +13,7 @@ export const Statistics = ({ title, stats }) => {
           </li>
         ))}
       </ul>
-    </section>
+    </Section>
   );
 };
 

@@ -11,7 +11,7 @@ export const StatisticsContainer = styled.div`
 export const Title = styled.h2`
   text-transform: uppercase;
   font-size: 28px;
-  font-weigh: 500;
+  font-weight: 500;
   text-align: center;
   padding: 30px 0;
 `;

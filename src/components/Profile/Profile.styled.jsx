@@ -39,7 +39,7 @@ export const Stat = styled.li`
   align-items: center;
   background-color: #f0f0f0;
   padding: 10px;
-  border-right: 1px solid #d3d5e3;
+  border: 1px solid #d3d5e3;
   width: 100%;
 `;
 export const Label = styled.span`
